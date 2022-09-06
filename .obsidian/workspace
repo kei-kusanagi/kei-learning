@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "e79b7405cf73d2a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d24f819e5007169e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "HEROKU e-commerce/PROCESO PREPARACION HEROKU.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "33c7dc70bce1f747",
+    "type": "split",
+    "children": [
+      {
+        "id": "8551bb13bd1d3f85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "994853debc75bfdf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f3040453f0056499",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c319b739189dd2ab",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9c7b11989f8bc49a",
+    "type": "split",
+    "children": [
+      {
+        "id": "296e07f2f44e341a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e792a0df2b5424cd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HEROKU e-commerce/PROCESO PREPARACION HEROKU.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c2ec761bc615bf3c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HEROKU e-commerce/PROCESO PREPARACION HEROKU.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "99dad3a612d9f2ca",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "043964f00adeaa20",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HEROKU e-commerce/PROCESO PREPARACION HEROKU.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d24f819e5007169e",
+  "lastOpenFiles": [
+    "HEROKU e-commerce/heroku ecommerce.md",
+    "HEROKU e-commerce/PROCESO PREPARACION HEROKU.md"
+  ]
+}
