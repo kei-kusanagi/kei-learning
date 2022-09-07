@@ -130,3 +130,31 @@ executor failed running [/bin/sh -c npm install]: exit code: 127
  !    Error: docker build exited with Error: 1
 (env) PS C:\Users\admin\Desktop\Proyectos\Ecommerce> 
 ```
+
+
+bueno despues de muchos corajes vamos a intentar subirlo de otra forma, como ya lo habia subido antes en el curso de Angela y es por medio de git, para esto use esto de referencia
+https://youtu.be/ruSjZ6hY-PU
+y el como crear un yml file aqui
+https://devcenter.heroku.com/articles/build-docker-images-heroku-yml
+
+en el directorio rais creamos una rchivo llamado ``heroku.yml``
+
+luego le ponemos el siguiente comando, en si por lo que entendi, es un archivo mescla entre el dockerfile y el Procfile para darle instrucciones especificas a heroku de que correr primero, pero incluso en la documentacion dice que si usas los comandos RUN o CMD en tu Dockerfile que dejes en blanco eso (tons pa que chingaos crear otro archivo)
+
+![[Pasted image 20220907124704.png]]
+
+hacemos un commit y un push y en mi caso solo me dejo con el commando 
+``git push heroku dev:main`` 
+ya que estoy trabajando en esa rama
+
+Despues de hacer esto vamos a nuestra app de heroku y le damos subir con git, nos logueamos y enlasamos las cuentas y de alli solo nos dejara subir remotos
+
+le damos la opcion de git, buscamos nuestro repo, le indicamos que rama es y esperamos un laaaaaaaaargo tiempo -.- zzzZ
+
+![[Pasted image 20220907124929.png]]
+
+como emociona ver tanta palomita pero nel, sigue sin funcionar
+
+![[Pasted image 20220907130452.png]]
+
+intentare borrar la app y literal hacerlo desde el principio
