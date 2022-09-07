@@ -158,3 +158,28 @@ como emociona ver tanta palomita pero nel, sigue sin funcionar
 ![[Pasted image 20220907130452.png]]
 
 intentare borrar la app y literal hacerlo desde el principio
+
+...
+
+
+```
+2022-09-07T18:09:32.884098+00:00 app[web.1]: System check identified some issues:
+2022-09-07T18:09:32.884099+00:00 app[web.1]:
+2022-09-07T18:09:32.884099+00:00 app[web.1]: WARNINGS:
+2022-09-07T18:09:32.884099+00:00 app[web.1]: ?: (staticfiles.W004) The directory '/home/app/webapp/frontend/build' in the STATICFILES_DIRS setting does not exist.
+2022-09-07T18:09:32.884100+00:00 app[web.1]:
+2022-09-07T18:09:32.884100+00:00 app[web.1]: System check identified 1 issue (0 silenced).
+2022-09-07T18:09:32.940696+00:00 app[web.1]: September 07, 2022 - 18:09:32
+2022-09-07T18:09:32.940754+00:00 app[web.1]: Django version 4.0.4, using settings 'ecommerce.settings'
+2022-09-07T18:09:32.940754+00:00 app[web.1]: Starting development server at http://0.0.0.0:8080/
+2022-09-07T18:09:32.940754+00:00 app[web.1]: Quit the server with CONTROL-C.
+2022-09-07T18:09:32.942680+00:00 app[web.1]: /usr/local/lib/python3.8/site-packages/whitenoise/base.py:115: UserWarning: No directory at: /home/app/webapp/staticfiles/
+2022-09-07T18:09:32.942684+00:00 app[web.1]: warnings.warn(f"No directory at: {root}")
+2022-09-07T18:10:30.340083+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2022-09-07T18:10:30.455203+00:00 heroku[web.1]: Stopping process with SIGKILL
+2022-09-07T18:10:30.665267+00:00 heroku[web.1]: Process exited with status 137
+2022-09-07T18:10:30.720232+00:00 heroku[web.1]: State changed from starting to crashed
+2022-09-07T18:12:13.192359+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=velvet-ecommerce.herokuapp.com request_id=13d430f9-8cc3-4128-bb31-666fb4303afe fwd="189.233.156.13" dyno= connect= service= status=503 bytes= protocol=https
+```
+
+pos bueno, creoq ue de menos fue mas rapido que con docker, pero sigue sin correr la app
