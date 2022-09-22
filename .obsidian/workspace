@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HEROKU e-commerce/subir ecommerce con docker a heroku.md",
+            "file": "PERMISOS API/tipos de permisos.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9c7b11989f8bc49a",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HEROKU e-commerce/subir ecommerce con docker a heroku.md",
+                "file": "PERMISOS API/tipos de permisos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HEROKU e-commerce/subir ecommerce con docker a heroku.md",
+                "file": "PERMISOS API/tipos de permisos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HEROKU e-commerce/subir ecommerce con docker a heroku.md"
+                "file": "PERMISOS API/tipos de permisos.md"
               }
             }
           }
@@ -131,8 +130,9 @@
   },
   "active": "d24f819e5007169e",
   "lastOpenFiles": [
-    "HEROKU e-commerce/subir ecommerce con docker a heroku.md",
+    "Notas.md",
     "HEROKU e-commerce/heroku ecommerce.md",
-    "HEROKU e-commerce/PROCESO PREPARACION HEROKU.md"
+    "HEROKU e-commerce/PROCESO PREPARACION HEROKU.md",
+    "HEROKU e-commerce/subir ecommerce con docker a heroku.md"
   ]
 }
