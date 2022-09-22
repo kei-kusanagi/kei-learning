@@ -86,3 +86,5 @@ las ventajas son
 - ayudar a reducir el numero de asignaciones de roles
 
 - usar atributos que tienen un significado empresarial especifico
+
+https://learn.microsoft.com/es-es/azure/role-based-access-control/conditions-overview
