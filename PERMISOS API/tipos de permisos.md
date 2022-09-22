@@ -19,6 +19,8 @@ el segundo nivel es definir que rol pertenece a cada dependencia, el ejemplo que
 
 el tercer nivel no entendi muy bien pero es la mas baja y se definen no los roles si no las funciones de los empleados para poder ver que rol se le asignara
 
+> ya le entendi un poco mejor, se refiere el tercer nivel  a la asignacion de roles dependiendo que funciones realiza cada empleado, como ejemplo que se me ocurre (ya no el del copy master) es ver si un empelado o grupo de empleados desarolla la misma funcion que se puede definir como un rol especifico o uno ya creado, por ejemplo en nuestra pagina un usuario podra cambiar su nombre de perfil, esa funcion tambien la puede realizar un administrador pero no por eso se le dara el rol de administrador, entocnes se CREA un rol en base a la funcion de poder cambiar el perfil y este se le asigna al usuario como al administrador
+
 el fundamento de roles, un empleado puede hacer cosas que no precisamente tiene asignadas, por eso se le pueden poner roles adicionales que es la ventaja de este sistema de RBAC, namas le creas ese rol y se lo asignas a el, ya después cuando otro empleado haga lo mismo solo le asignas ese rol tambien pa que pueda acceder a los recursos de este, por lo que entendí un ejemplo que se me ocurre es que un empleado de oficina le agarra la onda a la copiadora, entonces se vuelve el bueno de ls copias, pero llega el momento que se acaba la tinta a la copiadora, entonces los de administrador le pueden asignar el rol de "master of the copys" y darle el poder (o el recurso pues) de que cuando el que le sabe vea que se acabara la tinta o las hojas tener el poder de pedirlas directamente, ya después si llega alguien mas a quien le asignen el unico trabajo de sacar copias solo se le da el mismo rol y listo
 
 Lo bueno y lo malo del RBAC
@@ -39,3 +41,7 @@ aplicación, cuando es una pequeña empresa o proyecto la creación de roles (po
 
 todo esto lo saque de leerlo aqui
 https://www.ionos.es/digitalguide/servidores/seguridad/que-es-el-role-based-access-control-rbac/
+
+
+### Listas de Control de Acceso (ACL's )
+
