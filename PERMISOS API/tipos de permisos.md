@@ -43,6 +43,8 @@ todo esto lo saque de leerlo aqui
 https://www.ionos.es/digitalguide/servidores/seguridad/que-es-el-role-based-access-control-rbac/
 
 
+https://youtu.be/4Uya_I_Oxjk
+
 ### Mandatory access control (MAC)
 
 por lo que entiendo el control de acceso obligatorio es darle unicamente los permisos que necesitan para sacar unicamente la informacion que estan autorizados en sacar (me sono mas militar) 
@@ -54,7 +56,7 @@ Las **decisiones sobre los derechos de acceso** se toman sobre la base de los 
 -   Usuarios y procesos
 -   Objetos: recursos a los que se accede
 -   Reglas y propiedades: categorizaciones, etiquetas y palabras de código
-(esto lo copio tal cual que no s epuede resumir mas)
+(esto lo copio tal cual que no se puede resumir mas)
 
 en si es como asignar un rol grannde o mas general a todos los usuarios, dependiendo de su gerarquia
 
@@ -66,8 +68,21 @@ desventajas, requieres una planificacion detallada y  mucho mantenimiento
 https://www.ionos.es/digitalguide/servidores/seguridad/que-es-el-mandatory-access-control-mac/
 
 ### Listas de Control de Acceso (ACL's )
+
+este por lo que entiendo es como el que me decias del cadenero de un antro, o una fiesta que es por lista (no por invitacion) en este solo se dara acceso a los usuarios que esten anotados en una lista, por ejemplo alguien hace una peticion a la api y el sistema checa si ese usuario esta anotado en la base de datos como alguien que pueda hacer un get, si lo esta pues entonces le regresa la informacion que pidio, si no le mandas un 404
+
+veo que esto se usa mas en redes como para decirle a un router que paquetes si dejar pasar y que no, dependiendo si tiene esa ip en la lista o no
+
 http://recursostic.educacion.es/observatorio/web/ca/software/servidores/1065-listas-de-control-de-acceso-acl?start=1#:~:text=Las%20ACLs%20permiten%20asignar%20permisos,incluirlos%20en%20el%20mismo%20grupo.
 
-## Ejemplo solicitud de cliente
+## Attribute Based Access Control (ABAC)
 
-https://youtu.be/91hCOPzxs8U
+El ABAC (que usan los de Azure) te permite el acceso segun los atributos que tengan asociadas pero las entidades de seguridad(osease como el cadenero del control de listas) en si se basa en el RBAC pero le agregan condiciones de asignacion a los roles, por ejemplo para poder leer un objeto en especifico necesitas tener aparte de el rol una etiqueta especifica de ese objeto.
+
+las ventajas son
+
+- proporcionas un control mas preciso
+
+- ayudar a reducir el numero de asignaciones de roles
+
+- usar atributos que tienen un significado empresarial especifico
