@@ -44,6 +44,30 @@ https://www.ionos.es/digitalguide/servidores/seguridad/que-es-el-role-based-acce
 
 
 ### Mandatory access control (MAC)
+
+por lo que entiendo el control de acceso obligatorio es darle unicamente los permisos que necesitan para sacar unicamente la informacion que estan autorizados en sacar (me sono mas militar) 
+
+como se gestionan los derechos de acceso? pues un administrador (que ene ste caso tiene el roll de administrador y de poder asignar derechos) asigna a cada usuario los derechos que necesite y ni uno mas, para esto deve ser alguien que conosca las tareas que hace cada uno, si lo veo mas complicado esto al pasarlo a una api ya que veo mejor el sistema de roles para saver que informacion s ele puede regresar en un request o que informacion podria borrar en un delete o actualizar en un put
+
+Las **decisiones sobre los derechos de acceso** se toman sobre la base de los siguientes factores:
+
+-   Usuarios y procesos
+-   Objetos: recursos a los que se accede
+-   Reglas y propiedades: categorizaciones, etiquetas y palabras de código
+(esto lo copio tal cual que no s epuede resumir mas)
+
+en si es como asignar un rol grannde o mas general a todos los usuarios, dependiendo de su gerarquia
+
+
+ventajas, segun esto es mas fiable porque no s epueden realizar cambios (a menos que seas el administrador) en todo caso como usuario normal solo puedes acceder a la informacion y solo si tienes el nivel de autorizacion correspondiente
+
+desventajas, requieres una planificacion detallada y  mucho mantenimiento
+
 https://www.ionos.es/digitalguide/servidores/seguridad/que-es-el-mandatory-access-control-mac/
+
 ### Listas de Control de Acceso (ACL's )
 http://recursostic.educacion.es/observatorio/web/ca/software/servidores/1065-listas-de-control-de-acceso-acl?start=1#:~:text=Las%20ACLs%20permiten%20asignar%20permisos,incluirlos%20en%20el%20mismo%20grupo.
+
+## Ejemplo solicitud de cliente
+
+https://youtu.be/91hCOPzxs8U
