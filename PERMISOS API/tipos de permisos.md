@@ -1,6 +1,8 @@
 # Permisos, cuales hay, para que sirven
 
 
+### Role Based Access Control (RBAC)
+
 Hay diferentes tipos, el primero que salta en la búsqueda es el RBAC que es el "Role Based Access Control" o "control de acceso basado en roles"
 
 el RBAC se distingue por lo que entendí a que el sistema asigna dos cos cosas, una es un nivel y la otra es una categoría, dependiendo de esto se compara con un rol definido y de alli depende si le da acceso o no a ciertas funciones
