@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PERMISOS API/tipos de permisos.md",
+            "file": "PERMISOS API/Modelado de Usuarios.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9c7b11989f8bc49a",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PERMISOS API/tipos de permisos.md",
+                "file": "PERMISOS API/Modelado de Usuarios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PERMISOS API/tipos de permisos.md",
+                "file": "PERMISOS API/Modelado de Usuarios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PERMISOS API/tipos de permisos.md"
+                "file": "PERMISOS API/Modelado de Usuarios.md"
               }
             }
           }

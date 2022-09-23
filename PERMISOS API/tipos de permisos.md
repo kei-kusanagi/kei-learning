@@ -11,7 +11,7 @@ para que funcione lo primero que se debe hacer es primero crear siempre los role
 
 La "identity access management system" (IAM ) se encarga de la aplicación y supervisión de la RBAC que se encarga del registro, control y actualización de los usuarios (osease la asignación de roles) a lo que entendí esto se encarga de organizar que roles se pueden asignar, incluso los usuarios podrían asignarse ellos mismos sus roles pero un administrador debe aprobarlos y o en dado caso revertir los cambios
 
-el como se crea un RBAC, e spor un sistema piramidal llamado ROLE MINING (me sono mas a minería) la organización define los roles y luego se lo asigna a cada empleado (uno o mas roles dependiendo de sus funciones)
+el como se crea un RBAC, es por un sistema piramidal llamado ROLE MINING (me sono mas a minería) la organización define los roles y luego se lo asigna a cada empleado (uno o mas roles dependiendo de sus funciones)
 
 la cima de la piramide define las autorizaciones para cada empleado
 
@@ -75,7 +75,7 @@ veo que esto se usa mas en redes como para decirle a un router que paquetes si d
 
 http://recursostic.educacion.es/observatorio/web/ca/software/servidores/1065-listas-de-control-de-acceso-acl?start=1#:~:text=Las%20ACLs%20permiten%20asignar%20permisos,incluirlos%20en%20el%20mismo%20grupo.
 
-## Attribute Based Access Control (ABAC)
+### Attribute Based Access Control (ABAC)
 
 El ABAC (que usan los de Azure) te permite el acceso segun los atributos que tengan asociadas pero las entidades de seguridad(osease como el cadenero del control de listas) en si se basa en el RBAC pero le agregan condiciones de asignacion a los roles, por ejemplo para poder leer un objeto en especifico necesitas tener aparte de el rol una etiqueta especifica de ese objeto.
 
