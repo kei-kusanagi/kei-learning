@@ -1,41 +1,41 @@
 modelar usarios con roles para la pokemon api
 ```
 {
-  "roles": [
+  "role": [
     {
-      "nombre": "PokeAdministrator",
-      "permisos": {
-        "perfiles": [
-          "crear",
-          "editar",
-          "borrar"
+      "displayName": "PokeAdministrator",
+      "permissions": {
+        "profiles": [
+          "create",
+          "edit",
+          "delete"
         ],
-        "pokemones": [
-          "crear",
-          "editar",
-          "borrar",
-          "consultar"
+        "pokemon": [
+          "create",
+          "edit",
+          "delete",
+          "consult"
         ]
       }
     },
     {
-      "nombre": "PokeModerador",
-      "permisos": {
-        "perfiles": [
-          "crear",
-          "editar",
-          "borrar"
+      "displayName": "PokeModerador",
+      "permissions": {
+        "profiles": [
+          "create",
+          "edit",
+          "delete"
         ],
-        "pokemones": [
-          "consultar"
+        "pokemon": [
+          "consult"
         ]
       }
     },
     {
-      "nombre": "PokeUsuario",
-      "permisos": {
-        "pokemones": [
-          "consultar"
+      "displayName": "PokeUsuario",
+      "permissions": {
+        "pokemon": [
+          "consult"
         ]
       }
     }
