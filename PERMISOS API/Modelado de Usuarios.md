@@ -14,7 +14,7 @@ modelar usarios con roles para la pokemon api
           "create",
           "edit",
           "delete",
-          "consult"
+          "view"
         ]
       }
     },
@@ -27,7 +27,7 @@ modelar usarios con roles para la pokemon api
           "delete"
         ],
         "pokemon": [
-          "consult"
+          "view"
         ]
       }
     },
@@ -35,7 +35,7 @@ modelar usarios con roles para la pokemon api
       "displayName": "PokeUsuario",
       "permissions": {
         "pokemon": [
-          "consult"
+          "view"
         ]
       }
     }
