@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9c7b11989f8bc49a",
@@ -131,10 +130,10 @@
   },
   "active": "32dfcf7d584802a6",
   "lastOpenFiles": [
-    "PERMISOS API/tipos de permisos.md",
-    "Autenticacion/Modelos de autenticacion.md",
-    "PERMISOS API/Modelado de Usuarios.md",
     "Notas.md",
+    "Autenticacion/Modelos de autenticacion.md",
+    "PERMISOS API/tipos de permisos.md",
+    "PERMISOS API/Modelado de Usuarios.md",
     "OpenAPI/Diseñar una API.md",
     "OpenAPI/Que es OpenAPI.md",
     "HEROKU e-commerce/heroku ecommerce.md",
