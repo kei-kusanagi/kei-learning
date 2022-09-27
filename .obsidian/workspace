@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OpenAPI/Diseñar una API.md",
+            "file": "Autenticacion/Modelos de autenticacion.md",
             "mode": "source",
             "source": false
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenAPI/Diseñar una API.md",
+                "file": "Autenticacion/Modelos de autenticacion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenAPI/Diseñar una API.md",
+                "file": "Autenticacion/Modelos de autenticacion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenAPI/Diseñar una API.md"
+                "file": "Autenticacion/Modelos de autenticacion.md"
               }
             }
           }
@@ -131,11 +131,12 @@
   },
   "active": "32dfcf7d584802a6",
   "lastOpenFiles": [
-    "OpenAPI/Que es OpenAPI.md",
+    "PERMISOS API/tipos de permisos.md",
+    "Autenticacion/Modelos de autenticacion.md",
+    "PERMISOS API/Modelado de Usuarios.md",
     "Notas.md",
     "OpenAPI/Diseñar una API.md",
-    "PERMISOS API/Modelado de Usuarios.md",
-    "PERMISOS API/tipos de permisos.md",
+    "OpenAPI/Que es OpenAPI.md",
     "HEROKU e-commerce/heroku ecommerce.md",
     "HEROKU e-commerce/PROCESO PREPARACION HEROKU.md",
     "HEROKU e-commerce/subir ecommerce con docker a heroku.md"
