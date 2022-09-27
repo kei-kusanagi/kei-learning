@@ -31,5 +31,33 @@ Pues pareciera lo mismititito que la basada en token, le das un acceso a los rec
 ### 4.  OAuth 2.0 (Autorización abierta)
 oooooo ok ok, el OAuth es como cuando te dicen, ok quieres registrarte Ó mejor inicia cesión con GitHub o Google o el extinto Passport de Hotmail, ya que le des acceso esta aplicacion de terceros (osea con google, git o pssport) podra acceder a la informacion de la API permitida mediante un token de acceso
 
+el JWToken que manda OAuth luce asi
+
+-   **Encabezado**: metadatos sobre el token como algoritmos criptográficos utilizados para generar el token.
+-   **Payload**: la carga útil contiene el Asunto (generalmente identificador del usuario), claims (también conocidos como permisos o concesiones) y otra información como audiencia y tiempo de vencimiento, etc.
+-   **Firma**: utilizada para validar el token es confiable y no ha sido alterado.
+
+
+### 5.- Autenticación basada en cookies
+
+la diferencia es que este si es stateful, osea que aqui si tenemos que tener una plataforma donde el cliente haga inicio de secion y esta mantenga el cookie en correspondencia con el identificador de sesion.
+
+En el lado del cliente una cookie es creada para almacenar el identificador de sesión, mientras que los datos se almacenan en el servidor (y son llamados variables de sesión).
+
+(esto lo copio tal cual)
+El flujo que sigue este sistema de autenticación tradicional es el siguiente:
+
+-   Un usuario ingresa sus credenciales (datos que le permiten iniciar sesión)
+-   El servidor verifica que las credenciales sean correctas, y crea una sesión (esto puede corresponderse con la creación de un archivo, un registro nuevo en una base de datos, o alguna otra solución server-side)
+-   Una cookie con el session ID es puesta en el navegador web del usuario
+-   En las peticiones siguientes, el session ID es comparado con las sesiones creadas por el servidor
+-   Una vez que el usuario se desconecta, la sesión es destruida en ambos lados (tanto en el cliente como en el servidor)
+
+
 
 https://www.itdo.com/blog/cual-es-el-mejor-metodo-de-autentificacion-en-un-api-rest/
+
+https://www.clubdetecnologia.net/blog/2020/buenas-practicas-de-seguridad-para-las-api-rest/
+
+
+https://programacionymas.com/blog/jwt-vs-cookies-y-sesiones
