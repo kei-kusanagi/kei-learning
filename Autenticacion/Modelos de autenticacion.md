@@ -24,11 +24,11 @@ La confiable, el usuario y contraseña, es vulnerable porque aunque la contrase�
 
 la que ya había visto, con un token, con la primera petición le mandas tu INE (tu autenticación) y te regresa un token (autentificación) hecho a partir de tus credenciales (como ya lo vi, que dentro del token viene dividido el token, mensaje y asi) ya con este token (el cual guarda en la base de datos) ya no le pide al usuario vuelva a mandar sus credenciales, solo el token y alli viene lo que s eme dificulto que es ponerle caducidad y refresh y todo eso, pero esta es una vista general namas
 
-### 3.  Autentificación basada en clave API
+### 3. Autentificación basada en clave API
 
 Pues pareciera lo mismititito que la basada en token, le das un acceso a los recursos de la API y la API debe generar una clave y un secret, la cual debe ir en cada petición, según es mas seguro pweo wa mas difícil la escalabilidad de la API (no se a que se refiera)
 
-### 4.  OAuth 2.0 (Autorización abierta)
+### 4. OAuth 2.0 (Autorización abierta)
 oooooo ok ok, el OAuth es como cuando te dicen, ok quieres registrarte Ó mejor inicia cesión con GitHub o Google o el extinto Passport de Hotmail, ya que le des acceso esta aplicacion de terceros (osea con google, git o pssport) podra acceder a la informacion de la API permitida mediante un token de acceso
 
 el JWToken que manda OAuth luce asi
@@ -61,3 +61,16 @@ https://www.clubdetecnologia.net/blog/2020/buenas-practicas-de-seguridad-para-la
 
 
 https://programacionymas.com/blog/jwt-vs-cookies-y-sesiones
+
+
+videos
+
+https://youtu.be/eerHZJuEwJk
+
+https://www.youtube.com/watch?v=nNVlewjKQEQ&t=1523s
+
+https://www.youtube.com/watch?v=9ySvaitF7Lo&t=353s
+
+https://www.youtube.com/watch?v=ycD4_au91eI&t=307s
+
+https://www.youtube.com/watch?v=pMLcAjE5Cso
