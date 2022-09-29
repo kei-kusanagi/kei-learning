@@ -5,14 +5,14 @@ aqui ire dejando comentarios del video como vallan saliendo
 
 se basara en esta imagen para crear todo el proceso 
 
-![image](HEROKU%20e-commerce/IMG/Pasted%20image%2020220928182347.png)
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220928182347.png)
 
 basándose en OpenAPI 3.0, se va a la pagina de SwaggerHub y crea una cuenta, le da en crear una API y alli llena todos los datos usando el estándar 3.0.0, también hay varias plantillas "témplate" pero dice que si no sabemos lo que estamos haciendo lo dejemos en None
 
 luego lo primero en ponerle es la estructura de info, esta viene en 
 https://swagger.io/docs/specification/basic-structure/
 
-![image](HEROKU%20e-commerce/IMG/Pasted%20image%2020220928183359.png)
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220928183359.png)
 
 el la puso en YAML y pues la neta si esta mas entendible asi, eso si, deben estar bien identadas o marcara error 
 
@@ -34,7 +34,7 @@ paths
 
 y a la derecha sale esto 
 
-![image](HEROKU%20e-commerce/IMG/Pasted%20image%2020220928192138.png)
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220928192138.png)
 
 Algo importante, los "tags" son para hacer referencia de a quien pertenece esa sección
 
@@ -115,7 +115,7 @@ responses:
 
 le pone propipetas y va desmenuzando cada cosa que deberá mostrar (ojo sigue siendo un ejemplo de lo que se mostrara), entonces al final eso es el schema, el esquema de como se mostraran los datos
 
-![image](HEROKU%20e-commerce/IMG/Pasted%20image%2020220928195748.png)
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220928195748.png)
 
 aqui ese exmplo es si nos esta devolviendo un codigo 200, entonces siqueremos que nos muestre otra cosa cuando salga el codigo 404 le ponemosesto abajo
 
@@ -150,18 +150,18 @@ responses:
 
 y esto alado nos saldra en la parte de abajo como ejemplo y claro cuando le demos mal la url y nos regrese un codigo 404 tambien
 
-![image](HEROKU%20e-commerce/IMG/Pasted%20image%2020220928200056.png)
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220928200056.png)
 
 
 tambien se puede poner como mensaje json, pero recordar que tiene que ser 
 ``{"clave": "valor"}`` 
 
-![image](HEROKU%20e-commerce/IMG/Pasted%20image%2020220928200257.png)
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220928200257.png)
 
 
 pa que nos e haga mas largo el resumen, el hace otra peticion, se fiuja en que este en la misma linea donde puse ``/employes`` y crea otra llamada ``/employes/{id}`` le copia los datos y a la derecha le sale otra segunda ruta 
 
-![image](HEROKU%20e-commerce/IMG/Pasted%20image%2020220928201857.png)
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220928201857.png)
 
 esto es para que la peticion ``GET`` que queria que con el id te devolviera  el id nombre y sueldo, creo hasta alli le entendi bien, alli estas modelando el json que quieres que te responda, aunque aqui siguen siendo ejemplos solamente
 
@@ -169,7 +169,7 @@ esto es para que la peticion ``GET`` que queria que con el id te devolviera  el 
 ahora puedes crear peticiones ``POST`` de la misma forma y siguiendo el ejemplo de la documentacion
 
 
-![image](HEROKU%20e-commerce/IMG/Pasted%20image%2020220928202214.png)
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220928202214.png)
 
 
 https://swagger.io/docs/specification/basic-structure/
