@@ -22,7 +22,7 @@ ahora ya teniendo nuestra imagen le damos rellease con el comando
 
 esto ejectuara nuestra imagen que se acava de generar dentrod e nuestro servidor, aqui en teoria ya deveria dejarme ver la pagina en heroku pero nop, me da el siguiente error
 
-![[Pasted image 20220906154425.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220906154425.png)
 
 checando el log me da lo siguiente
 
@@ -141,7 +141,7 @@ en el directorio rais creamos una rchivo llamado ``heroku.yml``
 
 luego le ponemos el siguiente comando, en si por lo que entendi, es un archivo mescla entre el dockerfile y el Procfile para darle instrucciones especificas a heroku de que correr primero, pero incluso en la documentacion dice que si usas los comandos RUN o CMD en tu Dockerfile que dejes en blanco eso (tons pa que chingaos crear otro archivo)
 
-![[Pasted image 20220907124704.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220907124704.png)
 
 hacemos un commit y un push y en mi caso solo me dejo con el commando 
 ``git push heroku dev:main`` 
@@ -151,11 +151,11 @@ Despues de hacer esto vamos a nuestra app de heroku y le damos subir con git, no
 
 le damos la opcion de git, buscamos nuestro repo, le indicamos que rama es y esperamos un laaaaaaaaargo tiempo -.- zzzZ
 
-![[Pasted image 20220907124929.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220907124929.png)
 
 como emociona ver tanta palomita pero nel, sigue sin funcionar
 
-![[Pasted image 20220907130452.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220907130452.png)
 
 intentare borrar la app y literal hacerlo desde el principio
 

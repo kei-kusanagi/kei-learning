@@ -58,7 +58,7 @@ le quite los paths de mas en urls.py que habia puesto
 en stac overflow dicen que puede ser borrando el proc, haciendo commit, luego lo creo y hago commit and push y nada
 
 en stack comentan que puede ser si tienes el archivo anidado en otra carpeta y nada
-![[Pasted image 20220902193440.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220902193440.png)
 
 
 en casi todo stack mencionan que es sobre los dinos y con esto queda

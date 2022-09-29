@@ -31,7 +31,7 @@ esto para permitir todos los host (en este proyecto)
 
 
 ahora vamos con la base de datos
-![[Pasted image 20220905165517.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220905165517.png)
 (comente esto por si lo vuelvo a usar) abajo ponemos
 
 ```
@@ -80,7 +80,7 @@ Django no soporta subir archivos estáticos en producción, asi que nos apoyarem
 'whitenoise.middleware.WhiteNoiseMiddleware',
 
 ```
-![[Pasted image 20220905171046.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220905171046.png)
 y lo siguiente igual hasta el final de nuestro archivo de settings.py esta nos ayuda a mostrar archivos estaticos imagenes js y css en nuestro proyecto
 
 ``STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'``
@@ -97,17 +97,17 @@ y al final de urlpatterns ponemos
 ``+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)``
 
 lucirá algo así
-![[Pasted image 20220905171454.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220905171454.png)
 
 ahora algo IMPORTANTE, devemos generar una carpeta static al mismo nivel que manage.py y poner un archivo llamado .keep en blanco, esto porque en heroku se ejecutara de forma automática el ``colect statics`` y si no la tiene nos marcara error... yo la cree y aun asi me marcaba un error entonces puse el comando 
 ``python manage.py collectstatic`` 
 y se soluciono
-![[Pasted image 20220905171847.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220905171847.png)
 
 de igual manera algo super importante es crear un archivo llamado ``Procfile`` (asi con mayúscula la primera) y dentro poner lo siguiente
 ``web: gunicorn ecommerce.wsgi``
 con esta linea le estamos indicando a ``gunicorn`` que ejecute el archivo wsgi.py de nuestro proyecto (osease este)
-![[Pasted image 20220905172402.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220905172402.png)
 
 con esto "terminamos" (notese las comillas) la configuración de nuestro proyecto para subirlo a heroku, asi que hacemos un commit
 ```
@@ -117,13 +117,13 @@ $ git commit -m "Configuraciones Heroku"
 ahora vamos a heroku.com y le damos en crear app, para esto ya tendremos que aver instalado el cliente de heroku desde su pagina
 
 https://devcenter.heroku.com/articles/heroku-cli
-![[Pasted image 20220905173125.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220905173125.png)
 (a mi no me funciono luego luego asi que tube que reiniciar el mounstro)
 
 ya instalado, hacemos login en la terminal con
-![[Pasted image 20220905173258.png]]
-![[Pasted image 20220905173326.png]]
-![[Pasted image 20220905173357.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220905173258.png)
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220905173326.png)
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220905173357.png)
 
 ahora creamos el proyecto en heroku con el comando
 ``heroku create velvet-ecommerce``
@@ -135,7 +135,7 @@ ahora crearemos nuestra base de datos
 esto nos devolvera el mensaje de que ya fue creada la variable ``DATABASE_URL`` que es la que declaramos como variable de entorno.
 
 ahora subiremos nuestro proyecto al repositorio, aqui me dio muchos problemas ya que ahora no se usa master si no main, yo la regué y siguiendo una solución de stack use el comando ``git push heroku multiple-images:main`` porque era la ram que estaba usando y me dejo subirlo pero no corre
-![[Pasted image 20220905173939.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220905173939.png)
 
 entonces para subirlo usamos 
 ``git push heroku mail``
@@ -145,4 +145,4 @@ ya que subio ahora nos toca hacer las migraciones ya que creamos una nueva base 
 ``heroku run python ecommerce/manage.py migrate`` 
 
 y listo con esto nos debería de aparecer nuestra app en la pagina de heroku le damos donde dice "open app"
-![[Pasted image 20220905180305.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220905180305.png)

@@ -2,7 +2,7 @@
 
 
 En el webcast mencionan estos 7 pasos "simples" para el modelado de la API
-![[Pasted image 20220926183120.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220926183120.png)
 
 
 ### 1.- Lista de descripciones semánticas
@@ -26,7 +26,7 @@ Ya tenemos todo lo anterior ahora tenemos que construirlo, incluso pasarlo a per
 ### 7.- Publicación
 El ultimo paso es compartirlo, publicarlo
 
-![[Pasted image 20220926183059.png]]
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220926183059.png)
 
 
 [https://learning.oreilly.com/videos/api-design-methodology/9781491919224/9781491919224-video209493/](https://learning.oreilly.com/videos/api-design-methodology/9781491919224/9781491919224-video209493/ "https://learning.oreilly.com/videos/api-design-methodology/9781491919224/9781491919224-video209493/")
