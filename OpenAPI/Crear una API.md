@@ -5,7 +5,7 @@ aqui ire dejando comentarios del video como vallan saliendo
 
 se basara en esta imagen para crear todo el proceso 
 
-![image](IMG/Pasted%20image%2020220928182347.png)
+![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220928182347.png)
 
 basándose en OpenAPI 3.0, se va a la pagina de SwaggerHub y crea una cuenta, le da en crear una API y alli llena todos los datos usando el estándar 3.0.0, también hay varias plantillas "témplate" pero dice que si no sabemos lo que estamos haciendo lo dejemos en None
 
