@@ -176,3 +176,18 @@ https://swagger.io/docs/specification/basic-structure/
 
 
 Ya solo falto realmente tener de donde llamarlo, pero como modelado de una api esta fregon ya que con esta pagina https://app.swaggerhub.com/home podemos dejarla modelada y ya lueog esto pasarlo al Django con su Swagger 3.0.0 fea mente llamado OpenApi jajajaja
+
+
+Videos consultados
+
+https://youtu.be/B7JfOpiUGpY 
+
+https://youtu.be/MnC-XJkg6MQ
+
+
+Paginas
+
+https://support.smartbear.com/swaggerhub/docs/tutorials/openapi-3-tutorial.html
+
+https://swagger.io/docs/specification/about/
+(y las mencionadas arriba)
