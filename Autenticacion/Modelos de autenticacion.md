@@ -26,7 +26,7 @@ la que ya había visto, con un token, con la primera petición le mandas tu INE 
 
 ### 3. Autentificación basada en clave API
 
-Pues pareciera lo mismititito que la basada en token, le das un acceso a los recursos de la API y la API debe generar una clave y un secret, la cual debe ir en cada petición, según es mas seguro pweo wa mas difícil la escalabilidad de la API (no se a que se refiera)
+Pues pareciera lo mismititito que la basada en token, le das un acceso a los recursos de la API y la API debe generar una clave y un secret, la cual debe ir en cada petición, según es mas seguro pero es mas difícil la escalabilidad de la API (no se a que se refiera)
 
 ### 4. OAuth 2.0 (Autorización abierta)
 oooooo ok ok, el OAuth es como cuando te dicen, ok quieres registrarte Ó mejor inicia cesión con GitHub o Google o el extinto Passport de Hotmail, ya que le des acceso esta aplicacion de terceros (osea con google, git o pssport) podra acceder a la informacion de la API permitida mediante un token de acceso
