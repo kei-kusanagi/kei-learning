@@ -117,7 +117,7 @@ le pone propipetas y va desmenuzando cada cosa que deberá mostrar (ojo sigue si
 
 ![image](/HEROKU%20e-commerce/IMG/Pasted%20image%2020220928195748.png)
 
-aqui ese exmplo es si nos esta devolviendo un codigo 200, entonces siqueremos que nos muestre otra cosa cuando salga el codigo 404 le ponemosesto abajo
+aqui ese ejemplo es si nos esta devolviendo un codigo 200, entonces si queremos que nos muestre otra cosa cuando salga el código 404 le ponemos esto abajo
 
 ```
 
